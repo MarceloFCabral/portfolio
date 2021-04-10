@@ -1,12 +1,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom'; 
-import Nav from 'react-bootstrap/Nav'
-import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { NAV_COLOR } from '../style';
 
 const Navigation = () => {
   return (
     <div className="container-fluid" style={{ marginBottom: '3.4rem' }}>
-      <Navbar bg="light" fixed="top">
+      <Navbar bg={NAV_COLOR} fixed="top">
         <Navbar.Brand as={Link} to="/home">Marcelo F. Cabral</Navbar.Brand>
         {/*<div className="row justify-content-end" style={{ width: '100%' }}>*/}
         <div style={{ width: '100%' }}>
