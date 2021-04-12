@@ -15,7 +15,6 @@ const Navigation = () => {
             <Nav fill>
               {/*<Nav.Link href="#home">Home</Nav.Link>*/}
               <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
             </Nav>
           </div>

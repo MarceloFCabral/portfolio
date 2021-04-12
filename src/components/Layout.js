@@ -7,4 +7,4 @@ export const GenContainer = styled(Container)`
   background-color: ${BG_COLOR};
 `;
 
-export const Separator = () => <div style={{ height: 1, backgroundColor: /*'#e0e0e0'*/'#d1d1d1' }} />
+export const Separator = () => <div style={{ height: 1, backgroundColor: /*'#e0e0e0'*/'#d1d1d1', marginBottom: '2rem' }} />
