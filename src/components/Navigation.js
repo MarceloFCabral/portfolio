@@ -8,7 +8,7 @@ const Navigation = () => {
   return (
     <div className="container-fluid" style={{ marginBottom: '3.4rem' }}>
       <Navbar bg={NAV_COLOR} fixed="top">
-        <Navbar.Brand as={Link} to="/home">Marcelo F. Cabral</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Marcelo F. Cabral</Navbar.Brand>
         {/*<div className="row justify-content-end" style={{ width: '100%' }}>*/}
         <div style={{ width: '100%' }}>
           {/*<div style={{ width: '40%' }}>*/}
