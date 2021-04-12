@@ -8,14 +8,14 @@ const Navigation = () => {
   return (
     <div className="container-fluid" style={{ marginBottom: '3.4rem' }}>
       <Navbar bg={NAV_COLOR} fixed="top">
-        <Navbar.Brand as={Link} to="/">Marcelo F. Cabral</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/portfolio">Marcelo F. Cabral</Navbar.Brand>
         {/*<div className="row justify-content-end" style={{ width: '100%' }}>*/}
         <div style={{ width: '100%' }}>
           {/*<div style={{ width: '40%' }}>*/}
             <Nav fill>
               {/*<Nav.Link href="#home">Home</Nav.Link>*/}
-              <Nav.Link as={Link} to="/projects">Projects</Nav.Link>
-              <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+              <Nav.Link as={Link} to="/portfolio/projects">Projects</Nav.Link>
+              <Nav.Link as={Link} to="/portfolio/contact">Contact</Nav.Link>
             </Nav>
           </div>
         {/*</div>*/}
