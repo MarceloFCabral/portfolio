@@ -6,9 +6,15 @@ import pic from "../perfil.jpg";
 import { GenContainer, Separator } from "./Layout";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
-import Button from "react-bootstrap/Button";
 import { BG_COLOR /*NAV_COLOR*/ } from "../style";
-import { SiJavascript, SiReact, SiBootstrap, SiGit } from "react-icons/si";
+import {
+  SiJavascript,
+  SiReact,
+  SiGit,
+  SiNodeDotJs,
+  SiMongodb,
+  SiMysql,
+} from "react-icons/si";
 import { GiComputing } from "react-icons/gi";
 import { FaLinkedin } from "react-icons/fa";
 import { RiMailLine } from "react-icons/ri";
@@ -95,7 +101,6 @@ const About = () => {
                 Working with React and React Native has given me solid knowledge
                 on many tools and features available in JavaScript.
               </Card.Text>
-              <Button variant="outline-dark">My JS Projects</Button>
             </Card.Body>
           </Card>
           <Card>
@@ -105,10 +110,9 @@ const About = () => {
                 <SiReact /> React
               </Card.Title>
               <Card.Text>
-                Well-designed and fluid React applications built using the
-                latest features and best practices.
+                React applications built using the latest features and best
+                practices.
               </Card.Text>
-              <Button variant="outline-dark">My React Projects</Button>
             </Card.Body>
           </Card>
           <Card>
@@ -121,11 +125,10 @@ const About = () => {
                 Responsive apps created with usability, efficiency and ease of
                 maintenance in mind.
               </Card.Text>
-              <Button variant="outline-dark">My RN Projects</Button>
             </Card.Body>
           </Card>
         </CardGroup>
-        <CardGroup>
+        <CardGroup style={{ marginBottom: "3rem" }}>
           {/*<Card>
             <Card.Img src={react_logo} style={{ backgroundColor: BG_COLOR }} />
             <Card.Body>
@@ -159,6 +162,48 @@ const About = () => {
               </Card.Title>
               <Card.Text>
                 Version control using local and remote repositories.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+        </CardGroup>
+        <h2>Currently studying</h2>
+        <Separator />
+        <CardGroup>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                <SiNodeDotJs /> Node.js
+              </Card.Title>
+              <Card.Text>
+                I've recently built my first backend application that runs on
+                Node.js (it can be found on my projects page). Acquiring more
+                knowledge about Node.js is my main task at the moment. I've been
+                studying the RTE on a daily basis and I intend to take courses
+                and certification tests to further improve my abilities to work
+                with it.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                <SiMongodb /> MongoDB
+              </Card.Title>
+              <Card.Text>
+                My first backend app uses MongoDB (and the Mongoose API) to
+                manage database resources.
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          <Card>
+            <Card.Body>
+              <Card.Title>
+                <SiMysql /> SQL DBMS
+              </Card.Title>
+              <Card.Text>
+                The rise of non-relational databases such as MongoDB hasn't made
+                relational databases any less relevant; thus, continuously
+                improving my SQL skills remains a major goal.
               </Card.Text>
             </Card.Body>
           </Card>

@@ -1,6 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
-import { SiReact, SiNodeDotJs, SiC } from "react-icons/si";
+import { SiReact, SiNodeDotJs } from "react-icons/si";
 import { GenContainer, Separator } from "./Layout";
 import { BG_COLOR } from "../style";
 import { Row } from "react-bootstrap";
